@@ -390,23 +390,6 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   padding-bottom: 40px;
 }
 
-/*@media only screen and (max-width: 800px) {
-  .sectionTitle {
-    float: none;
-    width: 100%;
-    display: block;
-  }
-  .sectionContent {
-    float: none;
-    width: 100%;
-    display: block;
-  }
-  .subContent {
-    width: 100%;
-    display: block;
-  }
-}*/
-
 .sectionTitle {
   float: left;
   width: 24%;
@@ -422,6 +405,24 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   width: 30%;
   display: inline-block;
   vertical-align: top;
+}
+
+@media screen and (max-width: 800px) {
+  .sectionTitle {
+    float: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+  .sectionContent {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  .subContent {
+    width: 100%;
+    display: block;
+  }
 }
 
 .clear {
