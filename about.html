@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="icon" href="images/jt_logo_5.png">
+  <title>About</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+  </script>
+</head>
+<body>
+  <div class="about">
+    <div class="top" id="top">
+      <a href="index.html" style="text-decoration: none">
+        <img src="images/jt_logo_5.png" style="width:58px;height:52px;padding-top: 10px;padding-left: 10px;">
+      </a>
+      <div class="navigation">
+        <a href="about.html" style="text-decoration: none">
+          <span class="button">
+            <h4>
+              about
+            </h4>
+          </span>
+        </a>
+
+        <a href="resume.html" style="text-decoration: none">
+          <span class="button">
+            <h4>
+              resume
+            </h4>
+          </span>
+        </a>
+
+        <a href="contact.html" style="text-decoration: none">
+          <span class="button">
+            <h4>
+              contact
+            </h4>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="titles">
+      <h2>Learn more about me, who I am, and what I do</h2>
+      <h1>Step Inside</h1>
+    </div>
+    <div class="arrow">
+      <a href="#next">
+        <span class="bottom"></span>
+      </a>
+    </div>
+  </div>
+
+  
+    <div class="a_bit_about_me" id="next">
+      <div class="container">
+        <h1>Some intriguing facts about me</h1>
+        <p>Besides programming, I love to perform close-up sleight-of-hand magic or as I like to call it, "prestidigitation." I'm a huge fan of video games, love playing Super Smash Bros (classic), and am a big playing card and vinyl collector.</p>
+      </div>
+    </div>
+
+    <div class="engineering">
+      <div class="container2">
+        <h1>Why I Pursue Engineering</h1>
+        <p>I have been visiting my father’s lab at Cisco Systems since I was six. An electrical engineer, my father constantly runs code to test circuit boards to ensure that all of the circuitry runs smoothly. I would stay up with him, watching for the word “pass” to light up onscreen whereupon he would high-five me, and we would go to bed. My first experience with software was equally memorable. I watched my brother type in a strange yet fascinating language. The words were in English but lacked any meaning to me at the time. Then, my brother ran his simulation. What manifested were colorful blocks endlessly raining down from a black oblivion: the game of Tetris.
+        <br>
+        <br>
+        I've decided to pursue a double major in electrical engineering and computer science, because both of these experiences have greatly impacted me. Both fields remind me that one always needs the other: that the programmer needs a person to build the computer upon which he or she programs, and that the hardware builder needs a coder to put his or her machinery to good use. By studying these two fields, I hope to obtain an even wider breadth of knowledge of the computer industry.</p>
+      </div>
+    </div>
+
+    <div class="pictures">
+      <div class="container3">
+      <img src="images/jennings.JPG">
+      <img src="images/computer.jpg">
+      <img src="images/working.jpg">
+      </div>
+      <div class="container3">
+      <img src="images/dominos.jpg">
+      <img src="images/hello.jpg">
+      <img src="images/everything.jpg">
+      </div>
+    </div>
+
+  <div class="magic">
+    <div class="container4">
+      <h1>Magic as a hobby</h1>
+      <p>Since I started the craft three years ago, magic has always been a defining pasttime of mine. The hours I spend practicing to master a trick provide me with an escape to which I can turn from my typical life and have had profound transformative effects. Always quiet and shy, I found in magic a purpose to come out of my shell, an excuse to strike up conversations with strangers, to liven up their day. It has enabled me to meet a wide variety of people. 
+      <br>
+      <br>
+      Interestingly enough, I view both magic and engineering as two sides of the same coin. Engineering is everything logical about the world, while magic, on the other hand, represents all the the unsolved mysteries. Yet, they both have the ability to instill a sense of wonder in me. One thing is certain though: my magic will always be an integral part of my identity.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="social_media">
+      <a href="https://twitter.com/Crimsonninja9"><img src="images/1482918513_03-twitter.svg"></a>
+      <a href="https://linkedin.com/in/jonathan-trinh"><img src="images/1482919799_11-linkedin.svg"></a>
+      <a href="https://github.com/Crimsonninja"><img src="images/1482919972_github_rounded.svg"></a>
+      <a href="mailto:me@jonathantrinh.com"><img src="images/1482927766_67-gmail.svg"></a>
+    </div>
+
+    <div class="top_link">
+      <!-- <span class="copyright"> -->
+      <br>
+        <p>© 2017 by Jonathan Trinh</p>
+      <!-- </span> -->
+      <!-- <a href="#top" style="text-decoration: none;float: right;margin-right: 10px;"><p>Back to the top!</p></a> -->
+    </div>
+  </div>
+</body>
+</html>

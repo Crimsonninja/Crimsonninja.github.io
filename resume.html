@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="icon" href="images/jt_logo_5.png">
+  <title>Resume</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+  </script>
+</head>
+<body>
+  <div class="resume">
+    <div class="top" id="top">
+      <a href="index.html" style="text-decoration: none">
+        <img src="images/jt_logo_5.png" style="width:58px;height:52px;padding-top: 10px;padding-left: 10px;">
+      </a>
+      <div class="navigation">
+        <a href="about.html" style="text-decoration: none">
+          <span class="button">
+            <h4>
+              about
+            </h4>
+          </span>
+        </a>
+        <a href="resume.html" style="text-decoration: none">
+          <span class="button">
+            <h4>
+              resume
+            </h4>
+          </span>
+        </a>
+        <a href="contact.html" style="text-decoration: none">
+          <span class="button">
+            <h4>
+              contact
+            </h4>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="titles">
+      <h2>Discover my previous and current endeavors</h2>
+      <h1>Explore the Details</h1>
+    </div>
+
+    <!-- <div class="resume_link">
+      <a href="files/resume_version_4.docx" style="text-decoration: none;";><h5>Download my resume</h5></a>
+    </div> -->
+
+    <div class="arrow">
+      <a href="#next">
+        <span class="bottom"></span>
+      </a>
+    </div>
+  </div>
+  
+  <div class="the_resume" id="next">
+    <div class = "skills">
+        <div class="sectionTitle">
+          <h2 style="">SKILLS</h2>
+        </div>
+        <div class="sectionContent">
+          <div class="subContent">
+            <h4>COMFORTABLE LANGUAGES</h4>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>Java</li>
+              <li>Javascript/jQuery</li>
+              <li>HTML5</li>
+              <li>CSS3/Sass</li>
+              <li>Git</li>
+            </ul>
+          </div>
+
+          <div class="subContent">
+            <h4>APPLICATIONS</h4>
+            <ul>
+              <li>General Microsoft Applications (Word, Powerpoint, Excel, etc.)</li>
+              <li>Xcode</li>
+              <li>Adobe Photoshop and Premiere Pro</li>
+              <li>Solidworks (Computer Automated Design) (Limited)</li>
+            </ul>
+          </div>
+
+          <div class="subContent">
+            <h4>ADDITIONAL</h4>
+            <ul>
+              <li>Able to communicate effectively</li>
+              <li>Collaborator</li>
+              <li>Analyzer</li>
+            </ul>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <hr>
+
+    <div class="relevant_experience">
+        <div class="sectionTitle">
+        <h2>RELEVANT EXPERIENCE</h2>
+        </div>
+
+        <div class="sectionContent">
+        <h4>SOFTWARE ENGINEERING INTERN</h4>
+        <p>Eligo Energy<strong>, Chicago, IL, Summers 2014 and 2015</strong>
+        <br>
+        <ul>
+          <li>Built an email processing system for sales application improving functionality of existing database.</li>
+          <li>Wrote scripts to organize electricity usage data from energy utilities.</li>
+          <li>Finalized and deployed mobile application to both Apple’s and Google’s online stores and navigated complexities of getting the application approved.</li>
+          <li>Developed production quality code in Ruby and presented application for the technical team.</li>
+        </ul>
+        </p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+      <hr>
+
+    <div class="additional_experience">
+        <div class="sectionTitle">
+        <h2 style="font-size: 25px">ADDITIONAL EXPERIENCE</h2>
+        </div>
+        <br>
+        <div class="sectionContent">
+        <h4>COMPUTER SCIENCE TUTOR AND TEACHER ASSISTANT</h4>
+        <p>The Harker School<strong>, San Jose, CA, Summer 2016</strong>
+        <br>
+        <ul>
+          <li>Provided one-on-one tutoring for students struggling in the Programming and Advanced Programming classes.</li>
+          <li>Guided students to mastery of several computer science concepts, such as arrays, loops, and other facets of programming.</li>
+          <li>Aided teachers in grading students’ assignments and test.</li>
+        </ul>
+        </p>
+
+        <br>
+        <h4>ASSISTANT TENNIS COACH</h4>
+        <p>Mountain View Tennis<strong>, Mountain View, CA, Summer 2016</strong>
+        <br>
+        <ul>
+          <li>Supervised and coached tennis players between the ages of 7 and 13 during the afternoon camp.</li>
+          <li>Gave instruction on form and footwork to improve young players’ abilities to consistently return a ball.</li>
+        </ul>
+        </p>
+
+        <br>
+        <h4>VOLUNTEER, TEAM CAPTAIN</h4>
+        <p>Good Samaritan Hospital<strong>, San Jose, CA, Febuary 2013 - May 2016</strong>
+        <br>
+        <ul>
+          <li>Managed a team of 10 volunteers to assure smooth operation providing services to patients and staff.</li>
+          <li>Facilitated training of new volunteers.</li>
+          <li>Completed annual competency evaluations of fellow volunteers on shift.</li>
+          <li>Supported other volunteers and resolved patient questions and issues.</li>
+        </ul>
+        </p>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <hr>
+
+    <div class="education">
+        <div class="sectionTitle">
+          <h2>EDUCATION</h2>
+        </div>
+
+        <div class="sectionContent">
+          <h4>SANTA CLARA UNIVERSITY</h4>
+          <ul>
+            <li>Bachelor of Science in Computer Science and Electrical Engineering (double major)</li>
+            <li>Expected graduation, 2020</li>
+          </ul>
+
+          <br>
+
+          <h4>THE HARKER SCHOOL</h4>
+          <ul>
+            <li>High School Diploma, May 2016</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+  </div>
+  <div class="wrapper">  
+  <div class="footer">
+    <div class="social_media">
+      <a href="https://twitter.com/Crimsonninja9"><img src="images/1482918513_03-twitter.svg"></a>
+      <a href="https://linkedin.com/in/jonathan-trinh"><img src="images/1482919799_11-linkedin.svg"></a>
+      <a href="https://github.com/Crimsonninja"><img src="images/1482919972_github_rounded.svg"></a>
+      <a href="mailto:me@jonathantrinh.com"><img src="images/1482927766_67-gmail.svg"></a>
+    </div>
+    </div>
+
+    <div class="top_link">
+      <!-- <span class="copyright"> -->
+      <br>
+        <p>© 2017 by Jonathan Trinh</p>
+      <!-- </span> -->
+      <!-- <a href="#top" style="text-decoration: none;float: right;margin-right: 10px;"><p>Back to the top!</p></a> -->
+    </div>
+  </div>
+</body>
+</html>
