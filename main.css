@@ -117,11 +117,7 @@ h3 {
 
 h4 {
   font-family: "Proxima Nova", Helvetica, sans-serif;
-  padding-top: 50px;
   font-weight: normal;
-  text-align: center;
-  margin: 30px 0px;
-  display: inline;
   /*font-size: 17px;*/
 }
 
@@ -361,9 +357,6 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 .magic p {
   text-align: left;
   margin-top: 40px;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding-bottom: 80px; 
 }
 
 .the_resume {
@@ -385,6 +378,8 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   font-weight: normal;
   color: #5C5C5C;
   line-height: 180%;
+  padding-left: 50px;
+  padding-right: 60px;
 }
 
 .skills {
@@ -395,20 +390,38 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   padding-bottom: 40px;
 }
 
+/*@media only screen and (max-width: 800px) {
+  .sectionTitle {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  .sectionContent {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+  .subContent {
+    width: 100%;
+    display: block;
+  }
+}*/
+
 .sectionTitle {
   float: left;
-  width: 25%;
+  width: 24%;
   text-align: right;
 }
 
 .sectionContent {
   float: right;
-  width: 65%;
+  width: 70%;
 }
 
 .subContent {
-  width: 33.333333%;
-  display: inline;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .clear {
@@ -429,7 +442,7 @@ hr {
        padding: 0;
        margin: 40px auto;
        height: 0;
-       width: 80%;
+       width: 90%;
        max-height: 0;
        font-size: 1px;
        line-height: 0;
