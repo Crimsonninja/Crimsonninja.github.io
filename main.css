@@ -1,6 +1,16 @@
 /* main.css */
 
-html, body, h1, h2, h3, h4, p, div, ul, ol, li {
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+ol,
+li {
   padding: 0;
   border: 0;
   margin: 0;
@@ -8,10 +18,9 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   font-size: 100%;
 }
 
-
-
 .home {
-  background: linear-gradient( rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59) ),url("images/architecture_2.jpg") top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url('images/architecture_2.jpg') top no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -21,60 +30,81 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   position: absolute;
   top: 60%;
   text-align: center;
-  width: 100%
+  width: 100%;
 }
 
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
-  background-color: #E8EAEB;
+  background-color: #e8eaeb;
 }
 
 .titles h1 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-size: 68px;
   font-weight: bold;
   text-align: center;
   color: #ededed;
 
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .titles h2 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-size: 24px;
   /*padding-top: 130px;*/
   font-weight: 100;
@@ -82,16 +112,16 @@ html,body {
   color: #ededed;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 p {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-weight: normal;
-  color: #5C5C5C;
+  color: #5c5c5c;
   line-height: 230%;
 }
 
@@ -100,13 +130,13 @@ p {
 }
 
 span {
-    display: inline-block;
+  display: inline-block;
 
-    /*padding-top: 10px;*/
+  /*padding-top: 10px;*/
 }
 
 h3 {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 28px;
   font-weight: normal;
   text-align: center;
@@ -116,7 +146,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-weight: normal;
   /*font-size: 17px;*/
 }
@@ -125,7 +155,7 @@ h5 {
   margin: auto;
   padding: 10px;
   width: 255px;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-weight: normal;
   text-align: center;
   /*margin: 30px 0px;*/
@@ -135,18 +165,18 @@ h5 {
   transition: all 800ms ease;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 h5:hover {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   text-decoration: none;
   background: #ededed;
   /*padding: 10px 15px;*/
-  color: #37414D;
+  color: #37414d;
 }
 
 .bottom {
@@ -176,34 +206,42 @@ h5:hover {
   transform: rotate(135deg);
 }
 
-
-a:hover .left, a:hover .top, a:hover .bottom, a:hover .right{
-  border: 0.2em solid #37414D;
+a:hover .left,
+a:hover .top,
+a:hover .bottom,
+a:hover .right {
+  border: 0.2em solid #37414d;
 }
 
-a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:after {
-  border-top: 0.2em solid #37414D;
-  border-right: 0.2em solid #37414D;
+a:hover .left:after,
+a:hover .top:after,
+a:hover .bottom:after,
+a:hover .right:after {
+  border-top: 0.2em solid #37414d;
+  border-right: 0.2em solid #37414d;
 }
 
 .about {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("images/coffee.jpg") top center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('images/coffee.jpg') top center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 
 .resume {
-  background: linear-gradient( rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59) ),url("images/bench.jpg") top center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url('images/bench.jpg') top center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 
 .contact {
-  background: linear-gradient( rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59) ),url("images/city.jpg") top center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+    url('images/city.jpg') top center no-repeat;
   background-size: cover;
-  width:100%;
+  width: 100%;
   height: 100%;
 }
 
@@ -214,10 +252,10 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   width: 100%;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 .header {
@@ -232,10 +270,10 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 
 .top {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 
 .button {
@@ -243,21 +281,22 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
   padding: 5px 5px;
   /*width: 95px;*/
   font-size: 24px;
-    /*background: #377ca2;*/
-  vertical-align:top;
+  /*background: #377ca2;*/
+  vertical-align: top;
   text-align: center;
-/*  font-family: "Helvetica Neue", Helvetica, sans-serif;
-*/  text-decoration: none;
+  /*  font-family: "Helvetica Neue", Helvetica, sans-serif;
+*/
+  text-decoration: none;
   color: #ededed;
   transition: all 800ms ease;
 }
 
 .button:hover {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
   text-decoration: none;
   background: #ededed;
   /*padding: 10px 15px;*/
-  color: #37414D;
+  color: #37414d;
 }
 
 .container {
@@ -296,7 +335,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 
 .a_bit_about_me h1 {
   font-size: 34px;
-  font-family: "Proxima Nova";
+  font-family: 'Proxima Nova';
   color: #232323;
   text-align: center;
   padding-top: 80px;
@@ -312,12 +351,12 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 }
 
 .engineering {
-  background-color: #E8EAEB;
+  background-color: #e8eaeb;
 }
 
 .engineering h1 {
   font-size: 34px;
-  font-family: "Proxima Nova";
+  font-family: 'Proxima Nova';
   color: #232323;
   text-align: center;
   padding-top: 80px;
@@ -348,7 +387,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 
 .magic h1 {
   font-size: 34px;
-  font-family: "Proxima Nova";
+  font-family: 'Proxima Nova';
   color: #232323;
   text-align: center;
   padding-top: 80px;
@@ -368,15 +407,15 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 }*/
 
 .the_resume h2 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-size: 25px;
   margin-bottom: 20px;
 }
 
 .the_resume ul {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: 'Proxima Nova', Helvetica, sans-serif;
   font-weight: normal;
-  color: #5C5C5C;
+  color: #5c5c5c;
   line-height: 180%;
   padding-left: 50px;
   padding-right: 60px;
@@ -399,6 +438,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 .sectionContent {
   float: right;
   width: 70%;
+  /*padding-bottom: 20px;*/
 }
 
 .subContent {
@@ -426,7 +466,7 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 }
 
 .clear {
-  clear:both;
+  clear: both;
 }
 
 .separation {
@@ -439,23 +479,23 @@ a:hover .left:after, a:hover .top:after, a:hover .bottom:after, a:hover .right:a
 
 hr {
   display: block;
-       position: relative;
-       padding: 0;
-       margin: 40px auto;
-       height: 0;
-       width: 90%;
-       max-height: 0;
-       font-size: 1px;
-       line-height: 0;
-       clear: both;
-       border: none;
-       border-top: 1px solid #d5d5d5;
-       border-bottom: 1px solid #d5d5d5;
+  position: relative;
+  padding: 0;
+  margin: 40px auto;
+  height: 0;
+  width: 90%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
 }
 
 .get_in_touch h1 {
   font-size: 34px;
-  font-family: "Proxima Nova";
+  font-family: 'Proxima Nova';
   color: #232323;
   text-align: center;
   padding-top: 80px;
@@ -466,13 +506,13 @@ hr {
   margin-top: 40px;
   margin-left: 100px;
   margin-right: 100px;
-  padding-bottom: 80px; 
+  padding-bottom: 80px;
 }
 
 .social_media {
   text-align: center;
   /*background-color: #37414D;*/
-  background-color: #E8EAEB;
+  background-color: #e8eaeb;
 }
 
 .social_media img {
@@ -483,7 +523,7 @@ hr {
 }
 
 .education {
-  background-color:  #fff;
+  background-color: #fff;
 }
 
 .social_media img:hover {
@@ -505,5 +545,5 @@ hr {
 .footer {
   padding-top: 10px;
   /*background-color: #37414D;*/
-  background-color: #E8EAEB;
+  background-color: #e8eaeb;
 }
