@@ -1,0 +1,37 @@
+# site settings
+title: Jonathan Trinh
+subtitle:
+email: me@jonathantrinh.com
+description: Welcome to my personal site
+baseurl:  # the subpath of your site, e.g. /blog
+url: https://www.jonathantrinh.com # the base hostname & protocol for your site
+author: Jonathan Trinh
+po_box: 360662
+street_address: 450 S Abel St
+city: Milpitas
+state: CA
+zip_code: 95035
+country: United States of America
+phone: (408) 645-0240
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 4
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/Crimsonninja
+gitlab_url:
+googleplus_url:
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/jonathan-trinh/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/Crimsonninja9
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
