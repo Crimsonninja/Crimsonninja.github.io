@@ -9,11 +9,11 @@ tile_priority: 1
 menu_priority: 1
 ---
 
-I'm currently a senior studying a double major in Computer Science and Electrical Engineering at Santa Clara University! I've recently completed an internship at Apple on the Design Verification team within the Silicon Engineering Group where I had the opportunity to work on next-generation SOCs that end up in all Apple products.
+I'm currently a Senior Applications Engineer at Synopsys where I work with customers on the ZeBu ASIC Emulation platform.
 
 ## Some Intriguing Facts About Me
 
-Besides programming, I love to perform close-up sleight-of-hand magic or as I like to call it, "prestidigitation." I'm a huge fan of both photography and videography, love playing Super Smash Bros (classic), and am a big playing card and vinyl collector.
+Besides programming, I love to perform close-up sleight-of-hand magic or as I like to call it, "prestidigitation." I'm a huge fan of both photography and videography, love playing Super Smash Bros (classic), and am a big playing card and vinyl collector. I also recently picked up the hobby of coffee and enjoy brewing a capuccino/latte from the comfort of my home. For outdoor activities, I enjoy playing tennis and pickleball.
 
 ## Why I Pursue Engineering
 

@@ -24,7 +24,7 @@ facebook_url:
 github_url: https://github.com/Crimsonninja
 gitlab_url:
 googleplus_url:
-instagram_url: https://instagram.com
+instagram_url: https://www.instagram.com/johnnyyen9
 linkedin_url: https://www.linkedin.com/in/jonathan-trinh/
 pinterest_url:
 slack_url:
@@ -37,3 +37,14 @@ sass:
   style: compressed
 
 google_analytics: UA-148609563-1
+
+plugins:
+  - jekyll-toc
+  
+# TOC Settings
+toc:
+ min_level: 1
+ max_level: 3
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist

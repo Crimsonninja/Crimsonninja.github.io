@@ -66,8 +66,27 @@ menu_priority: 2
         </div>
 
         <div class="sectionContent">
+        <h4>SENIOR APPLICATIONS ENGINEER</h4>
+        <p>Synopsys<strong>, Sunnyvale, CA, November 2021 - Present</strong>
+        <br>
+        <ul>
+          <li>Supporting strategic accounts in ASIC emulation</li>
+        </ul>
+        </p>
+
+        <br>
+        <h4>ELECTRICAL DESIGN ENGINEER</h4>
+        <p>KLA<strong>, Milpitas, CA, June 2020 - November 2021</strong>
+        <br>
+        <ul>
+          <li>Worked on Image Computer for Broadband Plasma (BBP) Tool for optical wafer inspection</li>
+          <li>Automated tests for hardware-based compression</li>
+        </ul>
+        </p>
+
+        <br>
         <h4>DESIGN VERIFICATION (SILICON ENGINEERING) INTERN</h4>
-        <p>Apple<strong>, Cupertino, CA, June 2019 - Present</strong>
+        <p>Apple<strong>, Cupertino, CA, June 2019 - September 2019</strong>
         <br>
         <ul>
           <li>Implemented flow to automate connectivity verification of System-on-Chip (SOC) on full-chip scale</li>
@@ -152,11 +171,18 @@ menu_priority: 2
         </div>
 
         <div class="sectionContent">
+        <h4>SANTA CLARA UNIVERSITY</h4>
+          <ul>
+            <li>Master of Science in Electrical and Computer Engineering, June 2023</li>
+            <li>With High Honors</li>
+          </ul>
+
+          <br>
+
           <h4>SANTA CLARA UNIVERSITY</h4>
           <ul>
-            <li>Bachelor of Science in Computer Science and Electrical Engineering (double major)</li>
-            <li>Expected graduation: June 2020</li>
-            <li>GPA (currently): 3.68</li>
+            <li>Bachelor of Science in Computer Science and Electrical Engineering (double major), June 2020</li>
+            <li>With Honor</li>
           </ul>
 
           <br>
