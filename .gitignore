@@ -1,1 +1,8 @@
+# Jerkyll build output
+_site/
+
+# macOS
 .DS_Store
+
+# Ruby version
+.ruby-version
