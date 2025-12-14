@@ -3,3 +3,51 @@
   display: inline-block;
   vertical-align: top;
 }
+
+/* Post image gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: .75rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.gallery-item {
+  border-radius: .5rem;
+  overflow: hidden;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(212,212,255,0.1);
+  margin: 0;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item figcaption {
+  font-size: .85rem;
+  opacity: .75;
+  padding: .5rem .6rem .55rem;
+}
+
+/* Hero image caption */
+.hero-figure {
+  margin: 2.5em 0;
+}
+
+.hero-caption {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  margin-top: 0.5em;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Softer captions inside allposts accordion */
+.post-accordion .hero-caption {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
