@@ -66,15 +66,30 @@ menu_priority: 2
         </div>
 
         <div class="sectionContent">
-        <h4>SENIOR APPLICATIONS ENGINEER</h4>
-        <p>Synopsys<strong>, Sunnyvale, CA, November 2021 - Present</strong>
+        <h4>ELECTRICAL DESIGN ENGINEER</h4>
+        <p>KLA<strong>, Milpitas, CA, December 2024 - Present</strong>
         <br>
         <ul>
-          <li>Supporting strategic accounts in ASIC emulation</li>
+          <li>Supporting LaserScan Division tools on Image Compute pipelines for optical wafer inspection</li>
+          <li>Collaborating with cross-functional teams (systems, algorithm, hardware, and manufacturing) to debug and resolve image processing and data flow issues</li>
         </ul>
         </p>
 
         <br>
+
+        <h4>SENIOR APPLICATIONS ENGINEER</h4>
+        <p>Synopsys<strong>, Sunnyvale, CA, November 2021 - November 2024</strong>
+        <br>
+        <ul>
+          <li>Improving ASIC emulation performance by optimizing configurations to achieve higher effective emulation frequency</li>
+          <li>Developing and supporting automation workflows to streamline emulation setup and execution for customer CAD teams</li>
+          <li>Partnering with customer CAD and verification teams to reduce turnaround time and improve productivity</li>
+          <li>Identifying and resolving performance bottlenecks impacting large-scale ZeBu emulation workloads</li>
+        </ul>
+        </p>
+
+        <br>
+
         <h4>ELECTRICAL DESIGN ENGINEER</h4>
         <p>KLA<strong>, Milpitas, CA, June 2020 - November 2021</strong>
         <br>
@@ -85,6 +100,7 @@ menu_priority: 2
         </p>
 
         <br>
+
         <h4>DESIGN VERIFICATION (SILICON ENGINEERING) INTERN</h4>
         <p>Apple<strong>, Cupertino, CA, June 2019 - September 2019</strong>
         <br>
@@ -96,6 +112,7 @@ menu_priority: 2
         </p>
 
         <br>
+
         <h4>SOLUTIONS ENGINEERING INTERN</h4>
         <p>NetApp<strong>, Sunnyvale, CA, June 2018 - April 2019</strong>
         <br>
@@ -107,6 +124,7 @@ menu_priority: 2
         </p>
 
         <br>
+
         <h4>SOFTWARE ENGINEERING INTERN</h4>
         <p>Eligo Energy<strong>, Chicago, IL, Summers 2014, 2015, and 2017</strong>
         <br>

@@ -3,7 +3,7 @@
     Forty by HTML5 UP
     html5up.net | @ajlkn
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  -->
+-->
 <html>
 
   {% include head.html %}
@@ -12,30 +12,122 @@
 
     {% include header.html %}
 
-
     <!-- Main -->
     <div id="main" class="alt">
 
       <!-- One -->
       <section id="one">
-	<div class="inner">
-          {% for post in site.posts %}
-	  {% if post.title != 404 %}
-	  <header class="major">
-	    <h1>{{ post.title }}</h1>
-	  </header>
-	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-	  {% if post.date %}<p>{{ post.date | date: "%m/%d/%Y"}}</p>{% endif %}
-	  <p>{{ post.content }}</p>
-	  {% endif %}
+        <div class="inner">
+
+          <header class="major">
+            <h1>{{ page.landing-title | default: page.title | default: "Blog" }}</h1>
+          </header>
+
+          <div class="accordion-controls" style="margin-bottom:1rem;">
+            <a class="button small" id="expand-all">Expand all</a>
+            <a class="button small" id="collapse-all" style="margin-left:.5rem;">Collapse all</a>
+          </div>
+
+          {% comment %}
+          If you later add pagination (paginator.posts), change "site.posts" to "paginator.posts".
+          {% endcomment %}
+          {% assign posts_list = site.posts %}
+
+          {% for post in posts_list %}
+            {% if post.title != 404 %}
+            <details class="post-accordion"{% if forloop.first %} open{% endif %}>
+              <summary>
+                <h2 class="major" style="display:inline;">{{ post.title }}</h2>
+                {% if post.date %}
+                  <span class="post-date"> · {{ post.date | date: "%b %-d, %Y" }}</span>
+                {% endif %}
+                {% if post.excerpt %}
+                  <div class="post-excerpt">
+                    {{ post.excerpt | strip_html | truncate: 200 }}
+                  </div>
+                {% endif %}
+              </summary>
+
+              {% if post.image %}
+                <figure class="image main hero-figure">
+                  <img src="{{ post.image | relative_url }}" alt="" loading="lazy" />
+                  {% if post.image_caption %}
+                    <figcaption class="hero-caption">
+                      {{ post.image_caption }}
+                    </figcaption>
+                  {% endif %}
+                </figure>
+              {% endif %}
+
+              {% if post.images and post.images.size > 0 %}
+                <div class="gallery-grid">
+                  {% for img in post.images %}
+                    <figure class="gallery-item">
+                      <img src="{{ img.src | relative_url }}" alt="{{ img.alt | default: '' }}" loading="lazy">
+                      {% if img.caption %}
+                        <figcaption>{{ img.caption }}</figcaption>
+                      {% endif %}
+                    </figure>
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              {% comment %}
+              Capture the RAW HTML excerpt to remove it from the full content below
+              {% endcomment %}
+              {% capture excerpt_html %}{{ post.excerpt }}{% endcapture %}
+
+              <article class="post-content">
+                {{ post.content | remove: excerpt_html }}
+                <p style="margin-top:.75rem;">
+                  <a class="button small" href="{{ post.url | relative_url }}">Open as standalone</a>
+                </p>
+              </article>
+            </details>
+            {% endif %}
           {% endfor %}
-	</div>
+
+        </div>
       </section>
 
     </div>
 
     {% include footer.html %}
 
-  </body>
+    <script>
+      (function () {
+        var openAll = document.getElementById('expand-all');
+        var closeAll = document.getElementById('collapse-all');
+        function all(q, fn){ Array.prototype.forEach.call(document.querySelectorAll(q), fn); }
+        if (openAll) openAll.addEventListener('click', function(){ all('details.post-accordion', d => d.open = true); });
+        if (closeAll) closeAll.addEventListener('click', function(){ all('details.post-accordion', d => d.open = false); });
+      })();
+    </script>
 
+    <style>
+      /* Minimal styles to match Forty; move into /assets/css/main.css if you prefer */
+      details.post-accordion {
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: .5rem;
+        padding: .75rem 1rem;
+        margin: 1rem 0 1.25rem;
+        background: rgba(255,255,255,0.025);
+      }
+      details.post-accordion summary {
+        cursor: pointer;
+        list-style: none; /* hide Firefox marker */
+        display: block;
+      }
+      details.post-accordion summary::-webkit-details-marker { display: none; }
+      details.post-accordion .post-date { opacity: .6; margin-left: .4rem; }
+      details.post-accordion .post-excerpt { color: rgba(255,255,255,0.8); margin-top: .35rem; }
+      details.post-accordion .post-content {
+        margin-top: .75rem;
+        border-top: 1px solid rgba(255,255,255,0.08);
+        padding-top: .75rem;
+      }
+      .accordion-controls { display: flex; gap: .5rem; }
+    </style>
+
+  </body>
 </html>

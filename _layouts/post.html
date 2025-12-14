@@ -10,27 +10,52 @@
 
 <body>
 
-    {% include header.html %} 
-    
-    
-<!-- Main -->
-<div id="main" class="alt">
+  {% include header.html %}
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-		</header>
-		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
-		<p>{{ content }}</p>
-	</div>
-</section>
+  <!-- Main -->
+  <div id="main" class="alt">
 
-</div>
+    <!-- One -->
+    <section id="one">
+      <div class="inner">
+        <header class="major">
+          <h1>{{ page.title }}</h1>
+        </header>
 
-    {% include footer.html %}
+        {% if page.image %}
+		  <figure class="image main hero-figure">
+		    <img src="{{ page.image | relative_url }}" alt="" loading="lazy" />
+		    {% if page.image_caption %}
+		      <figcaption class="hero-caption">
+		        {{ page.image_caption }}
+		      </figcaption>
+		    {% endif %}
+		  </figure>
+		{% endif %}
+
+        {% if page.images and page.images.size > 0 %}
+          <div class="gallery-grid">
+            {% for img in page.images %}
+              <figure class="gallery-item">
+                <img src="{{ img.src | relative_url }}"
+                     alt="{{ img.alt | default: '' }}"
+                     loading="lazy" />
+                {% if img.caption %}
+                  <figcaption>{{ img.caption }}</figcaption>
+                {% endif %}
+              </figure>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {{ content }}
+
+      </div>
+    </section>
+
+  </div>
+
+  {% include footer.html %}
 
 </body>
-
 </html>
