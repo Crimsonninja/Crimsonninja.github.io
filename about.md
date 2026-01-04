@@ -9,14 +9,18 @@ tile_priority: 1
 menu_priority: 1
 ---
 
-I'm currently a Senior Applications Engineer at Synopsys where I work with customers on the ZeBu ASIC Emulation platform.
+I’m an Electrical Design Engineer at KLA, working on image computing systems. I’m most engaged by problems that live at the boundary between hardware and software, where abstractions eventually meet real-world constraints and small details matter.
 
-## Some Intriguing Facts About Me
+## A Few Things I Enjoy
 
-Besides programming, I love to perform close-up sleight-of-hand magic or as I like to call it, "prestidigitation." I'm a huge fan of both photography and videography, love playing Super Smash Bros (classic), and am a big playing card and vinyl collector. I also recently picked up the hobby of coffee and enjoy brewing a capuccino/latte from the comfort of my home. For outdoor activities, I enjoy playing tennis and pickleball.
+Outside of engineering, I gravitate toward hobbies that reward patience, craftsmanship, and repetition. I enjoy brewing coffee at home, collecting and wearing mechanical watches, and practicing close-up sleight-of-hand, or as I like to call it, prestidigitation. I’m also drawn to photography and videography as ways of slowing down and paying attention.
 
-## Why I Pursue Engineering
+For balance, I spend a good amount of time on the court playing tennis and pickleball. Both offer equal parts competition, rhythm, and problem-solving in motion.
 
-I have been visiting my father’s lab at Cisco Systems since I was six. An electrical engineer, my father constantly runs code to test circuit boards to ensure that all of the circuitry runs smoothly. I would stay up with him, watching for the word “pass” to light up onscreen whereupon he would high-five me, and we would go to bed. My first experience with software was equally memorable. I watched my brother type in a strange yet fascinating language. The words were in English but lacked any meaning to me at the time. Then, my brother ran his simulation. What manifested were colorful blocks endlessly raining down from a black oblivion: the game of Tetris.
+## Why Engineering Stuck
 
-I've decided to pursue a double major in electrical engineering and computer science, because both of these experiences have greatly impacted me. Both fields remind me that one always needs the other: that the programmer needs a person to build the computer upon which he or she programs, and that the hardware builder needs a coder to put his or her machinery to good use. By studying these two fields, I hope to obtain an even wider breadth of knowledge of the computer industry.
+I’ve been around engineering for as long as I can remember. Growing up, I’d visit my father’s lab at Cisco Systems and watch him run tests on circuit boards late into the night. I didn’t understand the code, but I knew what it meant when the screen finally read “pass.” That moment, the quiet tension followed by certainty, stuck with me.
+
+Around the same time, I watched my brother type lines of unfamiliar code and turn them into something tangible. A simple simulation became a cascade of falling blocks. It was my first glimpse into how invisible logic could produce visible, repeatable behavior.
+
+Those early experiences shaped how I approach my work today. I’m still fascinated by the relationship between systems and outcomes, how software gives hardware purpose, and how hardware grounds software in reality.

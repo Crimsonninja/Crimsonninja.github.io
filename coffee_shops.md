@@ -1,12 +1,27 @@
 ---
 layout: poge
 title: Bay Area Coffee Shops
-nav-menu: false
-description: Notes on Bay Area Coffee Shops
-image: null
+nav-menu: true
+description: My Recommendations on Coffee Shops in the Bay Area, CA
+image: assets/images/clear_black_coffee.jpeg
+show_tile: true
+tile_priority: 4
+menu_priority: 4
 ---
 
 I have a rather extensive list. There isn't necessarily a "best coffee shop" in my opinion. Different shops are good at different things, so keep that in mind as you read below!
+
+## Best Overall
+
+**Moonwake Coffee Roasters**
+Location: San Jose, CA
+[Yelp](https://www.yelp.com/biz/moonwake-coffee-roasters-san-jose-3?osq=Coffee+Roasteries)
+**Notes:**
+- A comprehensive menu spanning pour-overs, milk-based drinks, seasonal specialties, and a solid pastry selection
+- An impressively broad bean lineup, ranging from darker profiles to bright, fruit-forward light roasts
+- Popular spot that can get quite busy depending on the time of day
+- Start with the Orange Cardamom Latte, an easy recommendation
+- **Rating: 9/10**
 
 ## Best Cappuccino
 
