@@ -13,10 +13,10 @@ I have a rather extensive list. There isn't necessarily a "best coffee shop" in 
 
 ## Best Overall
 
-**Moonwake Coffee Roasters**
-Location: San Jose, CA
-[Yelp](https://www.yelp.com/biz/moonwake-coffee-roasters-san-jose-3?osq=Coffee+Roasteries)
-**Notes:**
+**Moonwake Coffee Roasters**  
+Location: San Jose, CA  
+[Yelp](https://www.yelp.com/biz/moonwake-coffee-roasters-san-jose-3?osq=Coffee+Roasteries)  
+**Notes:**  
 - A comprehensive menu spanning pour-overs, milk-based drinks, seasonal specialties, and a solid pastry selection
 - An impressively broad bean lineup, ranging from darker profiles to bright, fruit-forward light roasts
 - Popular spot that can get quite busy depending on the time of day
